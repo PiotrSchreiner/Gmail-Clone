@@ -3,10 +3,17 @@ import "./EmailRow.css";
 import { IconButton, Checkbox } from "@material-ui/core";
 import StarBorderOutlinedIcon from "@mui/icons-material/StarBorderOutlined";
 import LabelImportantOutlinedIcon from "@mui/icons-material/LabelImportantOutlined";
+import { useNavigate } from "react-router-dom";
 
 function EmailRow({ id, title, subject, description, time }) {
+  const navigate = useNavigate();
+
+  const handleClick = () => {
+    navigate("/mail");
+  };
+
   return (
-    <div className="emailRow">
+    <div onClick={handleClick} className="emailRow">
       <div className="emailRow__options">
         <Checkbox />
         <IconButton>
