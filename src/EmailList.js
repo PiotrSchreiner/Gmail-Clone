@@ -14,7 +14,6 @@ import LocalOfferIcon from "@mui/icons-material/LocalOffer";
 import Section from "./Section";
 import EmailRow from "./EmailRow";
 import { db } from "./firebase";
-import SendMail from "./SendMail";
 
 function EmailList() {
   const [emails, setEmails] = useState([]);
