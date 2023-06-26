@@ -7,8 +7,8 @@ import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
 import AppsIcon from "@mui/icons-material/Apps";
 import NotificationsIcon from "@mui/icons-material/Notifications";
 import { useDispatch, useSelector } from "react-redux";
-import { logout, selectUser } from "./features/userSlice";
-import { auth } from "./firebase";
+import { logout, selectUser } from "./features/userSlice.js";
+import { auth } from "./firebase.js";
 
 function Header() {
   const user = useSelector(selectUser);

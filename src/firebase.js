@@ -3,13 +3,13 @@ import "firebase/firestore";
 import "firebase/auth";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCoU5dRp6-CanvSbeHD31vTf3aFWv53qcg",
-  authDomain: "g-mail-clone-b082c.firebaseapp.com",
-  projectId: "g-mail-clone-b082c",
-  storageBucket: "g-mail-clone-b082c.appspot.com",
-  messagingSenderId: "15619713548",
-  appId: "1:15619713548:web:2abaf563801e5d05d4dc29",
-  measurementId: "G-C3NXE6NBJX",
+  apiKey: "AIzaSyA8yVdlrS5_a4dyP8RwbinR73T6af1Gq0Q",
+  authDomain: "clone2-fcc3f.firebaseapp.com",
+  projectId: "clone2-fcc3f",
+  storageBucket: "clone2-fcc3f.appspot.com",
+  messagingSenderId: "13620676850",
+  appId: "1:13620676850:web:be497ab32077c8240b286b",
+  measurementId: "G-FN84K0S7NL",
 };
 
 const firebaseApp = firebase.initializeApp(firebaseConfig);
