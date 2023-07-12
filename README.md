@@ -14,6 +14,8 @@ To get started with the project, follow these steps:
 
 ## Usage
 
+You can view a demo of the application [here](https://clone2-fcc3f.web.app/).
+
 Once the installation is complete, you can run the application using the following command:
 
 This will start the development server and open the application in your default browser.
